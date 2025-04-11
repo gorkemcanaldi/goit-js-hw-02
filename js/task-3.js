@@ -1,9 +1,9 @@
 function checkForSpam(message) {
   const yasaklıKelime1 = "spam";
-  const yasaklıKeline2 = "sale";
+  const yasaklıKelime2 = "sale";
   if (
     message.toLowerCase().includes(yasaklıKelime1) ||
-    message.toLowerCase().includes(yasaklıKeline2)
+    message.toLowerCase().includes(yasaklıKelime2)
   ) {
     return true;
   } else {
